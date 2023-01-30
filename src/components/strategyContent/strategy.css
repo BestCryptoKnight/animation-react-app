@@ -1,0 +1,36 @@
+
+ .strategyOption1 {
+   left: 225.5px;
+   top: 27.8%;
+ }
+
+.strategyOption2{
+  left: 750.5px;
+  top: 27.8%;
+}
+
+.strategyOption3{
+  left: 1175px;
+  top: 27.8%;
+}
+
+.strategyOption4{
+  left: 226px;
+  top: 55.6%;
+}
+.strategyOption5{
+  left: 751px;
+  top: 55.6%;
+}
+.strategyOption6 {
+  left: 1176px;
+  top: 55.6%;
+}
+
+.option{
+  text-transform: uppercase;
+}
+
+.option:hover{
+  text-shadow: 1px 2px 0px rgba(197, 0, 247, 0.78);
+}

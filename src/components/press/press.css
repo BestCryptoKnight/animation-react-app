@@ -1,0 +1,378 @@
+@import url("https://fonts.cdnfonts.com/css/druk-trial");
+@import url("https://fonts.cdnfonts.com/css/montserrat");
+
+/* body {
+  overflow: hidden;
+} */
+
+.p1 {
+  background: #FFFFFF;
+  border-radius: 50%;
+  transition: 2s linear all;
+  position: absolute;
+  width: 28.92px;
+  height: 28.92px;
+  /* transform: scale(1.5); */
+}
+
+.p1_active {
+  transform: scale(5);
+  left: calc(85vw);
+  top: calc((85vh));
+}
+
+.p1_initiate {
+  left: calc(50% + 9px);
+  top: calc(50% + 108px);
+  transform: scale(1);
+}
+
+.p2_active {
+  transform: scale(6);
+  left: calc(50% + 50px);
+  top: calc(50vh - 110px);
+}
+
+.p2_initiate {
+  transform: scale(0.7);
+  left: calc(50% + 93px);
+  top: calc(50% + 57px);
+}
+
+.p3_active {
+  transform: scale(8.5);
+  left: 228px;
+  top: calc(76.7vh);
+  box-shadow: 0px 0px 15px rgb(255,255,255,0.2);
+}
+
+.p3_initiate {
+  transform: scale(0.5);
+  left: calc(50% + 165px);
+  top: calc(50% + 134px);
+}
+.pressOverlay{
+  background: rgba(0, 0, 0, 0.622);
+  /* background-color: red; */
+  mix-blend-mode: overlay;
+  width: 100vw;
+  height: 100vh;
+  position:absolute;
+  z-index: 12;
+  top: 0;
+}
+
+.press-section {
+  width: 100%;
+  position: relative;
+  /* top: 10vh; */
+  height: 90vh;
+  background-color: transparent;
+  z-index: 11 !important;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  /* gap: 216px; */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.main-graphics-container {
+  position: absolute;
+  width: 764px;
+  height: 569px;
+  left: 618.27px;
+  top: 173.91px;
+}
+
+.i-am-button-box {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  position: absolute;
+  width: 346px;
+  height: 346px;
+  left: 430.73px;
+  top: 33%;
+
+  /* Primary/Green */
+
+  background: #a6ce38;
+}
+
+.i-am-button-box span {
+  width: 213px;
+  height: 118px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.press-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 216px;
+  width: 100%;
+  height: 944px;
+  background: transparent;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  position: relative;
+  z-index: 20;
+  top: 0; 
+}
+
+.press-title-container {
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px;
+  gap: 12px;
+  isolation: isolate;
+
+  width: 1872px;
+  height: 10vh;
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  z-index: 0;
+  margin-top: 0;
+  margin-top: 2%;
+  background-color: transparent;
+}
+
+.press-title-container h2 {
+  width: 165px;
+  height: 38px;
+
+  font-family: "Druk Text Wide Trial";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 32px;
+  line-height: 38px;
+  text-transform: uppercase;
+
+  /* Secondary/White */
+  color: #f3f2f2;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  z-index: 0;
+}
+
+.press-content-main {
+  position: absolute;
+  width: 1382.27px;
+  height: 742.91px;
+  left: 13.86px;
+  top: 120.99px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  z-index: 3;
+}
+.groot {
+  position: absolute;
+  width: 290px;
+  z-index: 9999;
+  height: 372px;
+  left: 100.73000000000002px;
+  top: -322.4100000000001px;
+  background: url("groot.gif");
+}
+
+.tiktok-box {
+  position: absolute;
+  width: 324px;
+  height: 500.09px;
+  left: -18.27px;
+  top: 36.59px;
+  border: #222 solid thin;
+
+  /* Secondary/White */
+
+  background: #f3f2f2;
+}
+
+.tiktok-logo {
+  position: absolute;
+  left: 19.81%;
+  right: 19.66%;
+  top: 11.58%;
+  bottom: 49.19%;
+  background: url("./Icon.png");
+}
+
+.tiktok-box-title {
+  position: absolute;
+  left: 16.43%;
+  right: 15.98%;
+  top: 71.83%;
+  bottom: 22.37%;
+
+  font-family: "Druk Text Wide Trial";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 23px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* Primary/Black */
+
+  color: #0c0d0d;
+
+  font-family: "Druk Text Wide Trial";
+}
+
+.tiktok-box-text {
+  position: absolute;
+  left: 15.06%;
+  right: 15.19%;
+  top: 79.95%;
+  bottom: 12.85%;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+
+  /* Primary/Black */
+
+  color: #0c0d0d;
+}
+
+.white-circle-bottom-left {
+  position: absolute;
+  width: 243.2px;
+  height: 243.2px;
+  border-radius: 50%;
+  left: -65%;
+  bottom: -30%;
+
+  /* Secondary/White */
+
+  background: #f3f2f2;
+  box-shadow: 0px 0px 278.577px #ffffff;
+}
+
+.white-circle-center-center {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  left: 42%;
+  top: 30%;
+  z-index: -1;
+
+  /* Secondary/White */
+
+  background: #f3f2f2;
+  box-shadow: 0px 0px 278.577px #ffffff;
+}
+
+.white-circle-bottom-right {
+  position: absolute;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  left: 85%;
+  bottom: -42%;
+  z-index: -1;
+
+  /* Secondary/White */
+
+  background: #f3f2f2;
+  box-shadow: 0px 0px 278.577px #ffffff;
+}
+
+.case-study-title-animated {
+  position: absolute;
+  width: 145px;
+  height: 28px;
+  left: -235.08999999999997px;
+  top: 3.3900000000000007px;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height */
+
+  text-transform: uppercase;
+
+  /* Secondary/White */
+
+  color: #f3f2f2;
+}
+
+.case-study-animated-border-circle {
+  position: absolute;
+  left: 21.78%;
+  right: 63.18%;
+  top: 11.51%;
+  bottom: 76.92%;
+
+  /* background: linear-gradient(0deg, #e69112, #e69112), url(green-circuluar.gif); */
+  background-blend-mode: overlay, normal;
+}
+
+.case-study-title-animated-img {
+  position: absolute;
+  z-index: 9999;
+  top: -50%;
+  width: 500px;
+}
+
+.case-study-title-sideways {
+  position: absolute;
+  width: 181px;
+  height: 38px;
+  left: -122px;
+  top: 388.5px;
+
+  font-family: "Druk Text Wide Trial";
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+
+  /* Secondary/White */
+
+  color: #f3f2f2;
+
+  transform: rotate(-90deg);
+}

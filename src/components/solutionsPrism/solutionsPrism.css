@@ -1,0 +1,696 @@
+.prism-container-flex {
+    height: 90vh;
+    background-color: transparent;
+    /* margin-top: 20vh; */
+
+}
+
+.prismText {
+    position: relative;
+    transition: 20s linear all;
+    width: 235px;
+    font-family: 'Druk Text Wide Trial' !important;
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: red;
+    /* transition: all 2s ease-in-out; */
+}
+
+.prismTextAnimated {
+    opacity: 0;
+    /* transition: 20s linear all; */
+}
+
+.techPrismText {
+    left: calc(50%);
+    top: calc(82%);
+}
+
+.socialPrismText {
+    left: calc(50%);
+    top: calc(3%);
+}
+
+.adPrismText {
+    left: calc(70%);
+    top: 46%;
+}
+
+.strategyPrismText {
+    left: calc(23%);
+    top: 40%;
+}
+
+.techPrismTextAnimated {
+    width: 128px;
+    height: 40px;
+    left: 50px;
+    top: 50px;
+}
+
+.socialPrismTextAnimated {
+    width: 128px;
+    height: 50px;
+    left: 50px;
+    top: 50px;
+}
+
+.adPrismTextAnimated {
+    width: 128px;
+    height: 40px;
+    left: 50px;
+    top: 50px;
+}
+
+.strategyPrismTextAnimated {
+    width: 128px !important;
+    height: 40px;
+    left: 50px;
+    top: 50px;
+}
+
+.iconDark {
+    position: relative;
+    z-index: 9;
+    width: 569px;
+    height: 100%;
+    margin-left: 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    /* background-color: red; */
+    top: -10%;
+    left: 0;
+    /* background-color: antiquewhite; */
+}
+
+.iconDarkAnimated {
+    position: relative;
+    z-index: 9;
+    height: 100%;
+    margin-left: 5px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 100vw;
+    /* top: 10; */
+}
+
+.prismOverlay {
+    position: absolute;
+    /* width: 100vw;
+    height: 100vh; */
+    width: 336px;
+    height: 340px;
+    margin-top: -2%;
+    background: rgba(0, 0, 0, 0.622);
+    /* background-color: red; */
+    mix-blend-mode: overlay;
+    overflow: hidden;
+    z-index: 10;
+    margin-left: 75px;
+    transform: rotate(45deg);
+}
+
+.frame {
+    position: absolute;
+    width: 477.74px;
+    height: 475.45px;
+    left: calc(50% - 477.74px/2 + 34.77px);
+    top: calc(50% - 475.45px/2 + 66.37px);
+    z-index: 9;
+    /* background-color: #fff; */
+}
+
+.frameAnimated {
+    position: absolute;
+    z-index: 9;
+    width: 100vw;
+    height: 80vh;
+    left: 0;
+    top: 0;
+}
+
+.prismTextContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.h {
+    position: absolute;
+    width: 289.87px;
+    height: 236.72px;
+    left: calc(50% - 289.87px/2 - 59.17px);
+    top: calc(50% - 236.72px/2 + 184px);
+    /* transition: 5s linear all; */
+    transition: 20s linear all;
+}
+
+.h_animated {
+    position: absolute;
+    width: 289.87px;
+    height: 236.72px;
+    left: calc(50% - 289.87px/2 - 38.17px);
+    top: calc(50% - 236.72px/2 + 600px);
+    transition: 20s linear all;
+    transform: scale(1.8);
+    opacity: 0;
+
+}
+
+
+
+
+.h1 {
+    position: absolute;
+    width: 289.87px;
+    height: 293.05px;
+    left: calc(50% - 289.87px/2 - 59.17px);
+    top: calc(50% - 293.05px/2 - 24.83px);
+    transition: 20s linear all;
+}
+
+.h1_animated {
+    position: absolute;
+    width: 289.87px;
+    height: 293.05px;
+    left: calc(50% - 289.87px/2 - 110px);
+    top: calc(50% - 293.05px/2 - 110.83px);
+    transition: 20s linear all;
+    opacity: 0;
+    transform: scale(1.2);
+}
+
+.h2 {
+    position: absolute;
+    width: 239.32px;
+    height: 293.05px;
+    left: calc(50% - 239.32px/2 + 152.01px);
+    top: calc(50% - 293.05px/2 - 24.83px);
+    transition: 20s linear all;
+
+    /* background: #D1D1D1; */
+}
+
+.h2_animated {
+    position: absolute;
+    width: 239.32px;
+    height: 293.05px;
+    left: calc(50% - 239.32px/2 + 300.01px);
+    top: calc(50% - 293.05px/2 - 100.83px);
+    transition: 20s linear all;
+    opacity: 0;
+    transform: scale(1.4);
+}
+
+.h3 {
+    position: absolute;
+    width: 238.45px;
+    height: 238.73px;
+    left: calc(50% - 238.45px/2 + 154px);
+    top: calc(50% - 238.73px/2 + 182px);
+    transition: 20s linear all;
+}
+
+.h3_animated {
+    position: absolute;
+    width: 238.45px;
+    height: 238.73px;
+    left: calc(50% - 238.45px/2 + 260px);
+    top: calc(50% - 238.73px/2 + 200px);
+    transition: 20s linear all;
+    opacity: 0;
+}
+
+.h4 {
+    position: absolute;
+    width: 189.64px;
+    height: 87.77px;
+    left: calc(50% - 189.64px/2 - 92px);
+    top: calc(50% - 87.77px/2 + 55px);
+    transition: .5s linear all;
+}
+
+.h4_animated {
+    position: absolute;
+    width: 189.64px;
+    height: 87.77px;
+    left: calc(50% - 189.64px/2 - 150px);
+    top: calc(50% - 87.77px/2 + 80px);
+    transition: .2s linear all;
+    opacity: 0;
+}
+
+.h5 {
+    position: absolute;
+    width: 79.79px;
+    height: 89.04px;
+    left: calc(50% - 79.79px/2 + 23px);
+    top: calc(50% - 89.04px/2 + 55px);
+    transition: 20s linear all;
+
+}
+
+.h5_animated {
+    position: absolute;
+    width: 79.79px;
+    height: 89.04px;
+    left: calc(50% - 79.79px/2 + 100px);
+    top: calc(50% - 89.04px/2 + 60px);
+    transition: 20s linear all;
+    opacity: 0;
+}
+
+.h6 {
+    position: absolute;
+    width: 78.59px;
+    height: 182.62px;
+    left: calc(50% - 78.59px/2 + 23.07px);
+    top: calc(50% - 182.62px/2 - 63px);
+    transition: 20s linear all;
+
+}
+
+.h6_animated {
+    position: absolute;
+    width: 78.59px;
+    height: 182.62px;
+    left: calc(50% - 78.59px/2 +100.07px);
+    top: calc(50% - 182.62px/2 - 10px);
+    transition: 20s linear all;
+    opacity: 0;
+}
+
+.h7 {
+    position: absolute;
+    width: 222.07px;
+    height: 222.19px;
+    left: calc(50% - 222.07px/2 - 80.7px);
+    top: calc(50% - 222.19px/2 - 47.8px);
+}
+
+.h8 {
+    position: absolute;
+    width: 185.49px;
+    height: 38.83px;
+    left: calc(50% - 185.49px/2 + 166.54px);
+    top: calc(50% - 38.83px/2 + 47.34px);
+}
+
+.h8_animated {
+    position: absolute;
+    width: 185.49px;
+    height: 38.83px;
+    left: calc(50% - 185.49px/2 + 166.54px);
+    top: calc(50% - 38.83px/2 + 47.34px);
+    opacity: 0;
+}
+
+.h9_animated {
+    position: absolute;
+    width: 190.72px;
+    height: 39.26px;
+    left: calc(50% - 190.72px/2 + 168.36px);
+    top: calc(50% - 39.26px/2 + 43.05px);
+    opacity: 0;
+}
+
+.h10_animated {
+    position: absolute;
+    width: 35.99px;
+    height: 185.03px;
+    left: calc(50% - 35.99px/2 + 14.53px);
+    top: calc(50% - 185.03px/2 + 201.84px);
+    opacity: 0;
+}
+
+.h11_animated {
+    position: absolute;
+    width: 35.37px;
+    height: 178.63px;
+    left: calc(50% - 35.37px/2 + 18.86px);
+    top: calc(50% - 178.63px/2 + 199.51px);
+    opacity: 0;
+}
+
+.h9 {
+    position: absolute;
+    width: 190.72px;
+    height: 39.26px;
+    left: calc(50% - 190.72px/2 + 168.36px);
+    top: calc(50% - 39.26px/2 + 43.05px);
+}
+
+.h10 {
+    position: absolute;
+    width: 35.99px;
+    height: 185.03px;
+    left: calc(50% - 35.99px/2 + 14.53px);
+    top: calc(50% - 185.03px/2 + 201.84px);
+
+}
+
+.h11 {
+    position: absolute;
+    width: 35.37px;
+    height: 178.63px;
+    left: calc(50% - 35.37px/2 + 18.86px);
+    top: calc(50% - 178.63px/2 + 199.51px);
+
+}
+
+.v1 {
+    position: absolute;
+    left: 2.85%;
+    right: 50.37%;
+    top: 3.03%;
+    bottom: 50.1%;
+    transition: 20s linear all;
+}
+
+.v1_animated {
+    position: absolute;
+    left: 10.85%;
+    top: -130.03%;
+    transition: 20s linear all;
+    opacity: 0;
+
+}
+
+.v {
+    position: absolute;
+    left: 2.59%;
+    right: 50.93%;
+    top: 2.6%;
+    transition: 20s linear all;
+    bottom: 50.67%;
+}
+
+.v_animated {
+    position: absolute;
+    left: -60.85%;
+    top: -45.03%;
+    transition: 20s linear all;
+    transform: rotate(-30deg);
+    transform: scale(0.6);
+    animation-name: v_ani;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes v_ani {
+    0% {
+        left: -60.85%;
+        top: -45.03%;
+    }
+
+    50% {
+        left: -60.85%;
+        top: -55.03%;
+    }
+
+    100% {
+        left: -60.85%;
+        top: -45.03%;
+    }
+}
+
+.v8 {
+    position: absolute;
+    left: 49.91%;
+    right: 0%;
+    top: 0%;
+    bottom: 49.92%;
+    transition: 20s linear all;
+}
+
+.v8_animated {
+    position: absolute;
+    left: 79.91%;
+    top: -100px;
+    transform: scale(1.2);
+
+    transition: 20s linear all;
+
+    animation-name: slideAllTime;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+
+}
+
+@keyframes slideAllTime {
+    0% {
+        left: 79.91%;
+        top: -100px;
+    }
+
+    50% {
+        left: 110.91%;
+        top: -180px;
+    }
+
+    100% {
+        left: 79.91%;
+        top: -100px;
+    }
+}
+
+.v9 {
+    position: absolute;
+
+    transition: 20s linear all;
+    right: 49.63%;
+    top: 50%;
+
+}
+
+.v9_animated {
+    position: absolute;
+
+    right: 49.63%;
+    top: 140.21%;
+
+    transition: 20s linear all;
+    transform: scale(1.8);
+
+    animation-name: slideAllTime3;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes slideAllTime3 {
+    0% {
+        right: 49.63%;
+        top: 140.21%;
+    }
+
+    50% {
+        right: 30.63%;
+        top: 140.21%;
+    }
+
+    100% {
+        right: 49.63%;
+        top: 140.21%;
+    }
+}
+
+
+.v7 {
+    position: absolute;
+    left: 58.02%;
+    right: 2.08%;
+    top: 40.97%;
+    bottom: 49.91%;
+
+    /* background: #A9F24B; */
+    mix-blend-mode: hard-light;
+
+    transition: 20s linear all;
+}
+
+.v7_animated {
+
+    position: absolute;
+    left: 75.02%;
+
+    top: 40.0%;
+
+
+    /* background: #A9F24B; */
+    mix-blend-mode: hard-light;
+    transition: 20s linear all;
+    opacity: 0;
+}
+
+.v6 {
+    position: absolute;
+    left: 41.58%;
+    right: 39.33%;
+    top: 40.52%;
+    bottom: 38.36%;
+    transition: 20s linear all;
+}
+
+.animated_v6 {
+    position: absolute;
+    left: 29.58%;
+
+    top: 20.52%;
+    transform: scale(1.6);
+    transition: 20s linear all;
+    animation-name: v6Ani;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes v6Ani {
+    0% {
+        left: 29.58%;
+
+        top: 20.52%;
+    }
+
+    50% {
+        left: 52.58%;
+
+        top: 10.52%;
+    }
+
+    100% {
+        left: 29.58%;
+
+        top: 20.52%;
+    }
+}
+
+
+.v5 {
+    position: absolute;
+    left: 41.83%;
+    right: 39.33%;
+    top: 58.09%;
+    bottom: 37.49%;
+
+    /* background: #A9F24B; */
+
+    transition: 20s linear all;
+}
+
+.v5_animated {
+    position: absolute;
+    left: 41.83%;
+    right: 39.33%;
+    top: 30.09%;
+    bottom: 37.49%;
+
+    /* background: #A9F24B; */
+    mix-blend-mode: color-burn;
+    opacity: 0;
+    transition: 20s linear all;
+}
+
+.v4 {
+    position: absolute;
+    left: 56.7%;
+    right: 38.44%;
+    top: 40.79%;
+    bottom: 38.36%;
+    transition: 20s linear all;
+}
+
+.v4_animated {
+    position: absolute;
+    left: 80.5%;
+    top: 32.79%;
+    transition: 20s linear all;
+    transform: scale(1.2);
+    animation-name: slideAllTime2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+}
+
+@keyframes slideAllTime2 {
+    0% {
+        left: 80.5%;
+        top: 32.79%;
+    }
+
+    50% {
+        left: 110.5%;
+        top: 10.79%;
+    }
+
+    100% {
+        left: 80.5%;
+        top: 32.79%;
+    }
+}
+
+
+.v3 {
+    position: absolute;
+    left: 42.96%;
+    right: 49.63%;
+    top: 59.22%;
+    bottom: 3.21%;
+
+    /* background: #A9F24B; */
+
+    transition: 20s linear all;
+}
+
+.v3_animated {
+    position: absolute;
+    left: 62%;
+    right: 49.63%;
+    top: 59.22%;
+    bottom: 3.21%;
+
+    /* background: #A9F24B; */
+    mix-blend-mode: hard-light;
+    opacity: 0;
+    transition: 20s linear all;
+}
+
+.v2 {
+    position: absolute;
+    left: 42%;
+    right: 50.48%;
+    top: 59.03%;
+    bottom: 2.04%;
+
+
+
+    transition: 20s linear all;
+}
+
+.v2_animated {
+    position: absolute;
+    left: 62%;
+
+    top: 59.03%;
+
+    /* background: #A9F24B; */
+    mix-blend-mode: hard-light;
+
+    transition: 20s linear all;
+    opacity: 0;
+}

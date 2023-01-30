@@ -1,0 +1,104 @@
+.solutionsPageContainer{
+    z-index: 11 !important;
+    /* background-color: red; */
+    /* height: 100%; */
+}
+.solutions-container-flex{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #F3F2F2;
+    align-items: center;
+    min-width: 100vw;
+    position: relative;
+    top: 10vh;
+    /* height: 90vh; */
+    background-color: transparent;
+    z-index: 1 ;
+    /* background-color: red; */
+    /* overflow-y: auto; */
+    
+}
+.solutions-page-overlay{
+    /* background: rgba(0, 0, 0, 0.722);
+    mix-blend-mode: overlay;
+    position: relative;
+    z-index: 1; */
+}
+.solutions-overlay {
+    background: rgba(0, 0, 0, 0.722);
+    /* background-color: red; */
+    mix-blend-mode: overlay;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.solutions-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 7px;
+    position: relative;
+    height: 20vh;
+    left: 0;
+    z-index: 2;
+    background-color: transparent;    
+}
+
+.solutions-header{
+    background-color: transparent;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-end;
+    z-index: 2;
+    gap: 12px;
+}
+
+.solutions-header h2{
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+
+
+.header-normal{
+    font-family: 'Druk Text Wide Trial';
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.header-animated{
+    font-family: 'Montserrat';
+    font-weight: 400;
+}
+
+.scrollableContainer{
+    height: 90vh;
+    width: 100vw;
+    position: relative;
+    /* top: 40vh; */
+    z-index: 12; 
+    background-color: transparent;
+    /* padding-top: 10vh; */
+}
+
+/* .container1{
+    border: 1px solid red;
+}
+.container2 {
+    border: 1px solid green;
+}
+.container3 {
+    border: 1px solid yellow;
+}
+.container4 {
+    border: 1px solid bisque;
+} */

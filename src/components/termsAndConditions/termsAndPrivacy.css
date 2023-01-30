@@ -1,0 +1,106 @@
+
+    .terms__privacy_overlay{
+        background: rgba(0, 0, 0, 0.622);
+        mix-blend-mode: overlay;
+        z-index: 2;
+        width: 100vw;
+        height: 90vh;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+.container_terms_and_conditions {
+    color: #F3F2F2;
+    width: 100vw;
+    position: relative;
+    top: 10vh;
+    z-index: 11 !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    height: 100vh;
+    z-index: 11 !important;
+    /* Primary/Black */
+}
+
+.terms_and_cond_heading {
+    width: auto;
+    height: 38px;
+    margin: 48px 25px;
+    float: left;
+}
+
+.terms_and_condition_description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    padding: 40px 224px;
+    border: 2px solid red;
+}
+
+.terms_and_condition_description div {
+    width: 100%;
+}
+
+.terms_and_condition_description div p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    font-family: 'Montserrat';
+    text-transform: lowercase;
+    color: #F3F2F2;
+    padding: 20px 0;
+}
+
+hr {
+    width: 100%;
+}
+
+.terms_and_condition_description div header {
+    font-family: 'Druk Text Wide Trial';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding: 16px 0;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Secondary/White */
+    color: #F3F2F2;
+}
+
+.span-a .a,
+.span-b .b {
+    display: inline-block;
+    /* the default for span */
+    width: 100px;
+    height: auto;
+    margin: 0 10px 0 0;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    /* identical to box height, or 200% */
+    text-transform: lowercase;
+}
+.span-a .a {
+    font-size: 14px;
+}
+.span-b .b {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+.paragraphTwo li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    text-transform: lowercase;
+}

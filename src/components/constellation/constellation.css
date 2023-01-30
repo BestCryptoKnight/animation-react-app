@@ -1,0 +1,149 @@
+.constellationContainer {
+    width: 100%;
+    position: relative;
+    top: 0;
+    height: 100vh;
+    background-color: transparent;
+    z-index: 11 !important;
+    overflow: hidden;
+}
+
+.constellationContainer h1{
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+}
+
+.constellation-overlay {
+    background: rgba(0, 0, 0, 0.622); 
+    mix-blend-mode: overlay;
+    /* box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+}
+
+
+.c1 {
+    background: #FFFFFF;
+    border-radius: 50%;
+    transition: 2s linear all;
+    position: absolute;
+    width: 28.92px;
+    height: 28.92px;
+    /* transform: scale(1.5); */
+}
+
+.c1_active {
+    transform: scale(0.8);
+    left: calc(50% + 258px);
+    top: calc(50% - 15px);
+}
+
+.c1_initiate {
+    left: calc(-258px);
+    top: calc(150px);
+}
+
+.c2_active {
+    transform: scale(0.8);
+    left: calc(50% + 19px);
+    top: calc(50% - 270px);
+}
+
+.c2_initiate {
+    left: calc(-258px);
+    top: calc(50% + 58px);
+}
+
+.c3_active {
+    transform: scale(1.5);
+    left: calc(50% - 295px);
+    top: calc(50% - 24px);
+}
+
+.c3_initiate {
+    left: calc(-258px);
+    top: calc(50% + 458px);
+}
+
+.c4_active {
+    left: calc(50% + 9px);
+    top: calc(50% + 108px);
+}
+
+.c4_initiate {
+    left: calc(50% + 9px);
+    top: calc(100% + 108px);
+}
+
+.c5_active {
+    left: calc(50% + 259px);
+    top: calc(50% + 234px);
+}
+
+.c5_initiate {
+    left: calc(259px);
+    top: calc(100% + 234px);
+}
+
+.c6_active {
+    transform: scale(0.8);
+    left: calc(50% - 235px);
+    top: calc(50% - 21.5px);
+}
+
+.c6_initiate {
+    left: calc(90% + 435px);
+    top: calc(100% + 121.5px);
+}
+
+.c7_active {
+    transform: scale(0.7);
+    left: calc(50% + 93px);
+    top: calc(50% + 57px);
+}
+
+.c7_initiate {
+    left: calc(100% + 293px);
+    top: calc(57px);
+}
+
+.c8_active {
+    transform: scale(0.5);
+    left: calc(50% + 165px);
+    top: calc(50% + 134px);
+}
+
+.c8_initiate {
+    left: calc(50% + 165px);
+    top: calc(-100px);
+}
+
+.constellationPoint {
+    position: absolute;
+    left: calc(50% - 420px);
+    top: calc(50% - 24px);
+    transition: 1s linear all;
+}
+
+.constellationPoint1 {
+    position: absolute;
+    left: calc(50% - 180px);
+    top: calc(50% - 268px);
+    transition: 1s linear all;
+}
+
+.constellationPoint2 {
+    position: absolute;
+    left: calc(50% + 325px);
+    top: calc(50% - 15px);
+    transition: 1s linear all;
+}
+
+.constellationPoint3 {
+    position: absolute;
+    left: calc(50% + 325px);
+    top: calc(50% + 244px);
+    transition: 1s linear all;
+}

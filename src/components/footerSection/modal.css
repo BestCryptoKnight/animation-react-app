@@ -1,0 +1,262 @@
+@import url("https://fonts.cdnfonts.com/css/druk-trial");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap");
+
+.mine-modal {
+    background-color: black !important;
+    color: white;
+    opacity: 1;
+    width: 70%;
+    height: 90%;
+    position: absolute;
+    top: 0;
+    left: 17%;
+    z-index: 1000;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+
+.mine-text-area {
+    box-sizing: border-box;
+    margin-top: 2%;
+    width: 100%;
+    height: 150px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 0.8em;
+    line-height: 20px;
+    resize: none;
+    border-bottom: white 2px solid;
+    /* identical to box height */
+    text-transform: uppercase;
+    /* Secondary/Grey */
+
+    color: #b3bdc8;
+    background: transparent;
+    /* Secondary/White */
+    padding-top: 2%;
+    /* box-shadow: 1px 2px 104px rgba(0, 247, 25, 0.19); */
+}
+
+.mine-modal-content {
+    padding: 30px;
+    width: 100%;
+}
+
+.mine-modal-main-title {
+    width: 100%;
+    height: 114px;
+    font-family: "Druk Text Wide Trial";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4em;
+    line-height: 38px;
+    text-transform: uppercase;
+    /* Secondary/White */
+    color: #f3f2f2;
+}
+
+.mine-modal-icon {
+    width: 5.5%;
+}
+
+.mine-item {
+    float: left;
+}
+
+.baby-yoda {
+    margin-top: -60px;
+    margin-left: -50px;
+    width: 70%;
+    height: auto;
+}
+
+.mine-modal-sub-title {
+    /* IT'S TIME TO GET PERSONAL */
+
+    height: 24px;
+
+    font-family: "Druk Text Wide Trial";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.9em;
+    line-height: 24px;
+    /* identical to box height */
+    text-transform: uppercase;
+
+    /* Secondary/White */
+    color: #f3f2f2;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.mine-form-group {
+    margin-top: 20px;
+}
+
+.mine-input {
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid white;
+    padding: 8px 12px;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.mine-select {
+    padding-top: 15px;
+    padding-bottom: 30px;
+    margin-top: 3%;
+    border-radius: 41px;
+    width: 107%;
+    border: 2px solid white;
+    background: transparent;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    /* or 100% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    /* or 100% */
+
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #f3f2f2;
+
+    padding-left: 3%;
+    padding-bottom: 4%;
+
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 2px;
+    text-align: left;
+    -ms-overflow-style: none;
+}
+
+.mine-select-arrow {
+    margin-top: 25%;
+}
+
+.divider {
+    margin-left: 40%;
+
+    width: 20%;
+    height: 0px;
+
+    /* Primary/Green */
+
+    border: 4px solid #A6CE38;
+
+    /* Inside auto layout */
+
+
+}
+
+.mine-select-options {
+    margin-left: 1.4%;
+    width: 95%;
+    margin-top: 1.5%;
+    border: 1px solid white;
+    /*Upper case*/
+    text-transform: uppercase;
+    color: #f3f2f2;
+    background-color: rgb(0, 0, 0,);
+    
+}
+
+.mine-select-option {
+    min-height: 25px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    background: transparent;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-align: left;
+    -ms-overflow-style: none;
+    cursor: pointer;
+}
+.mine-select-option:nth-child(4){
+    margin-bottom: 0;
+}
+.mine-select-option:hover{
+    background-color: #F3F2F2 ;
+    color: black;
+}
+
+option {
+    height: 30px;
+}
+
+.circle-button {
+    /* Ellipse 11 */
+
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    margin-left: -4%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 44px;
+    /* identical to box height, or 181% */
+
+    text-align: center;
+    letter-spacing: 5.44279px;
+    text-transform: uppercase;
+
+    /* Secondary/White */
+
+    color: #f3f2f2;
+    position: absolute;
+    margin-top: 7%;
+    width: 190px;
+    height: 190px;
+    border: 1px solid rgba(166, 206, 56, 0.2);
+    border-radius: 50%;
+    box-shadow: 0px 4px 185px 56px rgba(0, 255, 56, 0.4);
+    filter: drop-shadow(0px 0px 71px #a9f24b);
+}
+
+/* hover circle button */
+.circle-button:hover {
+    color: #f3f2f2;
+    background-color: transparent;
+    border: 1px solid rgba(166, 206, 56, 0.2);
+    box-shadow: 0px 4px 185px 56px rgba(243, 242, 242, 0.4);
+}
+
+.mine-modal-overlay {
+    background-color: rgba(0, 0, 0, 0.622);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}

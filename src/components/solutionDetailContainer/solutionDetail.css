@@ -1,0 +1,82 @@
+.optionsContainer{
+    height: 90vh;
+    /* padding-top: 10vh; */
+    padding: 0;
+    margin: 0;
+    /* background-color: red; */
+    /* opacity: 50%; */
+}
+
+
+.contentStyleAnimated {
+    position: relative;
+    z-index: 9;
+    height: 90vh;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    /* background-color: yellow; */
+    /* opacity: 50%; */
+}
+.solutions-options-container{
+    /* background-color: blue; */
+    /* opacity: 50%; */
+    height: 90vh;
+    margin-top: 0;
+    padding-top: 0;
+    margin-left: 5px;
+}
+.option {
+    z-index: 300;
+    cursor: pointer;
+    position: absolute;
+    height: 200px;
+    max-width: 473px;
+    padding: 1vh;
+    /* background-color: blueviolet; */
+}
+.option:hover .solutionIconContainer {
+    opacity: 1;
+    border: 1px solid rgba(255, 255, 255, 0.84);
+}
+
+.option:hover h2 {
+    color: white;
+}
+
+.option p {
+    position: relative;
+    top: -30px;
+    opacity: 0;
+    transition: .5s linear all;
+    line-height: 22px;
+}
+
+.option:hover p {
+    opacity: 1;
+    top: 6px;
+}
+.step1 {
+    transition: 1s linear all;
+}
+
+.solutionIconContainer {
+    width: 42px;
+    height: 42px;
+    border: 2px solid rgba(255, 255, 255, 0.84);
+    opacity: .4;
+    border-radius: 50%;
+    transform: scale(1.5);
+    position: relative;
+    /* left: -47px;
+    top: 16px; */
+    top: 16px;
+    left: 0;
+    z-index: 501;
+    cursor: pointer;
+    transition: .1s linear all;
+    /* background-color: red; */
+}

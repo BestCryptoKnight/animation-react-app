@@ -1,0 +1,288 @@
+/* exr */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+
+* {
+  /* font-family: 'Open Sans', sans-serif; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2,
+h1,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0 !important;
+}
+/* ------------------------- */
+.content {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px 7px;
+  gap: 10px;
+
+}
+
+.wrapper{
+  background-image: transparent;
+  z-index: 11;
+}
+.content-wrapper{
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.iconDark {
+  position: relative;
+  z-index: 9;
+  width: 569px;
+  height: 549px;
+  /* Inside auto layout */
+margin-left: 5px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame {
+  position: absolute;
+  width: 477.74px;
+  height: 475.45px;
+  left: calc(50% - 477.74px/2 + 34.77px);
+  top: calc(50% - 475.45px/2 + 66.37px);
+  z-index: 9;
+}
+
+.background_img{
+  background-image: url(../public/white/Stars.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+.homepageOverlay{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.722);
+  mix-blend-mode: overlay;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.header {
+  z-index: 999;
+  gap: 12px;
+  width: 1272px;
+  height: 40px;
+}
+
+
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 15px;
+  isolation: isolate;
+  width: 340px;
+  height: 50px;
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.solution {
+  position: absolute;
+  left: 220px;
+  top: 426px;
+  transition: 1s  linear all;
+}
+.s{
+  position: absolute;
+  width: 128px;
+  height: 40px;
+  left: 200px;
+  top: 100px;
+
+
+opacity: 0;
+  transition: 1s  linear all;
+}
+.solution1 {
+  position: absolute;
+
+  left: 550px;
+  top: 106px;
+  transition: 1s ease all;
+
+}
+.s1_animated{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+
+  position: absolute;
+  width: 128px;
+  height: 50px;
+  left: 400px;
+  top: 50px;
+  transition: 1s ease all;
+  opacity: 0;
+}
+.solution2 {
+
+
+  position: absolute;
+  
+  height: 40px;
+  left: 170px;
+  top: -220px;
+
+}
+.s2_animated{
+  position: absolute;
+  width: 128px;
+  height: 40px;
+  left: 609px;
+  top: 130px;
+
+
+  transition: 1s ease all;
+  opacity: 0;
+}
+.solution3 {
+
+
+  position: absolute;
+
+  left: -240px;
+  top: 100px;
+  transition: 1s ease all;
+
+}
+.s3_animated{
+  position: absolute;
+  width: 128px !important;
+  height: 40px;
+  left: 840px;
+  top: 160px;
+  transition: 1s ease all;
+  transition: 1s ease all;
+  opacity: 0;
+
+}
+.text_s {
+
+  font-style: normal;
+  font-weight: 1000;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+  z-index: 999 !important;
+
+  text-transform: uppercase;
+
+  /* Secondary/White */
+
+  color: #F3F2F2;
+
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  cursor: pointer;
+}
+
+.text_s:hover {
+  color: #7da547;
+}
+
+.iconContainer{
+  width: 42px;
+  height: 42px;
+  border: 2px solid rgba(255, 255, 255, 0.84);
+  opacity: .4;
+  border-radius: 50%;
+  transform: scale(1.5);
+  position: absolute;
+  left: -47px;
+  top: 16px;
+  z-index: 300;
+  cursor: pointer;
+
+  transition: .1s linear all;
+}
+
+.line{
+  width: 100%;
+  height: 1px ;
+  background: #ddd;
+}
+.tab_text{
+  color: #ddd;
+}
+
+.tab_active .line{
+  background: #A6CE38!important;
+}
+.tab_active .tab_text{
+  color: #A6CE38;
+}
+
+.tab1{
+  position: relative;
+  top: 0;
+  transition: 1s linear all;
+  left: 0;
+  width: 320px;
+}
+.tab{
+  transition: 1s linear all;
+  opacity: 0;
+}
+
+.tab1:hover .line{
+  background: #A6CE38!important;
+}
+.tab1:hover .tab_text{
+  color: #A6CE38;
+}
+
+.hideLogo{
+  transition: 1s linear all;
+ position: relative;
+ top: 100px;
+ opacity: 0;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+.page-container-flex{
+  top: 10vh;
+  height: 90vh;
+}

@@ -1,0 +1,77 @@
+.h-e-a-d-e-r-container {
+  min-height: 100vh;
+}
+.h-e-a-d-e-r-h-e-a-d-e-r {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: 40px;
+  position: relative;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: rgba(243, 242, 242, 1);
+  border-style: solid;
+  border-width: Symbol(figma.mixed)px;
+  justify-content: space-between;
+  background-color: rgba(4, 4, 4, 0.5);
+}
+.h-e-a-d-e-r-frame39 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.h-e-a-d-e-r-frame29 {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 10px;
+}
+.h-e-a-d-e-r-component1 {
+  width: 350px;
+  height: 46px;
+  position: relative;
+}
+.h-e-a-d-e-r-c-t-a {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.h-e-a-d-e-r-btn {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  border-radius: 41px;
+}
+.h-e-a-d-e-r-btn1 {
+  display: flex;
+  padding: 18px 40px;
+  position: relative;
+  align-items: flex-start;
+  border-color: rgba(243, 242, 242, 1);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 41px;
+}
+.h-e-a-d-e-r-text {
+  color: var(--dl-color-gray-white);
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Bold;
+  text-align: center;
+  font-family: Montserrat;
+  font-weight: 700;
+  line-height: 16px;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
